@@ -1,0 +1,32 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+# Generated files
+*.log
+*.txt
+*.csv
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+
+# Dependency directories
+/vendor
+/node_modules
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build output
+/build
+/dist
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
